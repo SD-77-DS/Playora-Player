@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.Playora.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/playora_primary</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.Playora</item>
+    </style>
+    <style name="Theme.Playora" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/playora_dark_bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+    <style name="Theme.Playora.Player" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/playora_black</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+</resources>
