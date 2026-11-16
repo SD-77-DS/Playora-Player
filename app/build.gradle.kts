@@ -20,7 +20,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.playora.app"
+        applicationId = "com.playora.player"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
